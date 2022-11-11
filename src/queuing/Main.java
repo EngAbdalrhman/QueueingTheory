@@ -20,14 +20,17 @@ public class Main {
 //		System.out.println(d.getNumberOfCustomers(16));
 		//d.Service(28);
 		
-		QueueFactory qf = new QueueFactory(1, 3, 5, 7);
+		QueueFactory qf = new QueueFactory(6, 4, 5, 0);
 		System.out.println(qf.getMinTi());
-		//System.out.println(qf.getWaitingTime(4));
-		//System.out.println(qf.getWaitingTime(3));
-		System.out.println(qf.getNumberOfCustomers(9));
-		System.out.println(qf.getNumberOfCustomers(4));
-		System.out.println(qf.getNumberOfCustomers(12));
-		
+//		System.out.println(qf.getWaitingTime(4));
+//		System.out.println(qf.getWaitingTime(3));
+//		System.out.println(qf.getNumberOfCustomers(9));
+//		System.out.println(qf.getNumberOfCustomers(4));
+//		for (int i = 0; i < qf.getMinTi(); i++) {
+//			int n = qf.getNumberOfCustomers(i);
+//			//System.out.println("at t = "+i+" , n = "+n);
+//		}
+
 	}
 	
 	

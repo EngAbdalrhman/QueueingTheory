@@ -16,7 +16,7 @@ public class FirstCase extends Deterministic{
 		 else if(steadyState)
 			 numberOfCustomers = capacity - 1; // could be -2
 		 else
-			 numberOfCustomers =(int) (lamda * t) - (int) ((mu * t - mu/lamda)+0.001);
+			 numberOfCustomers =(int) (lamda * t + 0.001) - (int) ((mu * t - mu/lamda)+0.001);
 		return numberOfCustomers;
 	}
 	

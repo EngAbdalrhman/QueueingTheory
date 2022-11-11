@@ -48,7 +48,7 @@ public class QueueGUI {
 	 */
 	private void initialize() {
 		frame = new JFrame();
-		frame.setBounds(100, 100, 474, 352);
+		frame.setBounds(100, 100, 474, 213);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
@@ -71,7 +71,7 @@ public class QueueGUI {
 				frame.setVisible(false);
 			}
 		});
-		btnNewButton_1.setBounds(209, 209, 89, 23);
+		btnNewButton_1.setBounds(186, 128, 89, 23);
 		frame.getContentPane().add(btnNewButton_1);
 		
 		JButton btnNewButton_2 = new JButton("Stochastic");

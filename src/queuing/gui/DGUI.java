@@ -27,7 +27,8 @@ public class DGUI {
 	
 	private String k,servicetime,arrivaltime,m,t,n;
 	private int ti , nt ,wq;
-	private QueueFactory qf;
+	QueueFactory qf;
+	
 	/**
 	 * Launch the application.
 	 */
@@ -176,7 +177,9 @@ public class DGUI {
 		JButton btnNewButton_1 = new JButton("Plot");
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				JOptionPane.showMessageDialog(dFrame,"Comming Soon","Stay tuned",1);
+				//JOptionPane.showMessageDialog(dFrame,"Comming Soon","Stay tuned",1);
+				Plot plot = new Plot(qf); // compute first
+				plot.pFrame.setVisible(true); //TODO close plot only , back handle
 			}
 		});
 		btnNewButton_1.setBounds(169, 207, 89, 23);

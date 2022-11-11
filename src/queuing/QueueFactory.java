@@ -47,4 +47,21 @@ public class QueueFactory{
 
 		return d.getMinTi();
 	}
+	
+	public double getArrivalTime() {
+		// TODO Auto-generated method stub
+
+		return d.getArrivalTime();
+	}
+	public double getServiceTime() {
+		// TODO Auto-generated method stub
+
+		return d.getServiceTime();
+	}
+	public int getCapacity() {
+		// TODO Auto-generated method stub
+
+		return d.getCapacity();
+	}
+	
 }
